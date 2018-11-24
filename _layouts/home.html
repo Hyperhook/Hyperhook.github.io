@@ -8,6 +8,20 @@ layout: default
   {%- endif -%}
 
   {{ content }}
+  
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12 intro">
+          <p class="lead">You might be wondering what is this</p>
+          <p>Well... I had an idea.<br>
+          I turned 26 years old a couple days ago and thought...<br>
+          <i>What would I like to do before I turn 30?<br></i>
+          <i>What would I like to accomplish to make me feel ready for this coming milestone?</i>
+          and so it began.<br>For the next weeks I asked a lot of people on what they would be important, and the result of that is right below. (This was also a social experiment, but that's between you and me)</p>
+          <p>This means I have {{1667390400 |minus: 1542950547 |divided_by:3600 |divided_by:24}} days to do as much as I can, and this is the place to log this adventure :)</p>
+      </div>
+     </div>
+  </div>
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
